@@ -12,10 +12,10 @@ export default function Navbar() {
       </div>
       <div className="flex-1 flex justify-center ml-[-50px] space-x-6 font-medium">
         <NavLink to="/" className="hover:underline text-white-300 text-lg">Live Deals</NavLink>
-        <NavLink to="/hotdeals" className="hover:underline text-white-300 text-lg">Hotdeals</NavLink>
-        <NavLink to="/deal-finder" className="hover:underline text-white-300 text-lg">Deal Finder</NavLink>
-        <NavLink to="/coupons" className="hover:underline text-white-300 text-lg">Coupons</NavLink>
-        <NavLink to="/quiz" className="hover:underline text-white-300 text-lg">Quiz</NavLink>
+        <NavLink to="/" className="hover:underline text-white-300 text-lg">Hotdeals</NavLink>
+        <NavLink to="/" className="hover:underline text-white-300 text-lg">Deal Finder</NavLink>
+        <NavLink to="/" className="hover:underline text-white-300 text-lg">Coupons</NavLink>
+        <NavLink to="/" className="hover:underline text-white-300 text-lg">Quiz</NavLink>
         <NavLink to="/blog" className="hover:underline text-white-300 text-lg">Blog</NavLink>
       </div>
       <div className="relative">
