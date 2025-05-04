@@ -11,7 +11,7 @@ export default function DealsFilter() {
         <button
           key={category}
           onClick={() => setActive(category)}
-          className={`px-6 py-2 rounded-md font-semibold transition 
+          className={`px-4 py-2 text-sm font-medium rounded-md transition-all bg-blue-600 
             ${
               active === category
                 ? 'bg-blue-600 text-white'
