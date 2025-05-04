@@ -2,7 +2,7 @@ import React from "react";
 
 const Pagination = ({ currentPage, totalPages, onPrevious, onNext }) => {
   return (
-    <div className="flex justify-center items-center mt-6 gap-2">
+    <div className="flex justify-center items-center mt-6 mb-6 gap-2">
       <button
         onClick={onPrevious}
         disabled={currentPage === 1}

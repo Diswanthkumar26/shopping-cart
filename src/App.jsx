@@ -1,9 +1,13 @@
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import DealsFilter from "./components/DealsFilter";
+import DealsFilter from "./subComponents/DealsFilter";
 import { useSelector } from "react-redux";
 import Blog from "./components/Blog";
+import DealsFinder from "./components/DealsFinder";
 import ProductList from "./subComponents/ProductList";
+import CarouselCards from "./subComponents/CarouselCards";
+import Footer from "./components/Footer";
+import BottomNavbar from "./components/BottomNavbar";
 import "./App.css";
 
 function App() {
@@ -18,6 +22,10 @@ function App() {
             <>
               <DealsFilter />
               <ProductList />
+              <CarouselCards />
+              <DealsFinder />
+              <Footer />
+              <BottomNavbar />
             </>
           }
         />

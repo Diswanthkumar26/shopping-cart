@@ -25,7 +25,6 @@ const ProductList = () => {
         ))}
       </div>
 
-      {/* Pagination Controls */}
       <Pagination
         currentPage={currentPage}
         totalPages={totalPages}
