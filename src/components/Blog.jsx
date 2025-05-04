@@ -1,5 +1,13 @@
+import Banner from "../blogs/Bannar"
+import BlogList from "../subComponents/BlogList";
+import FaqItem from "../blogs/FaqItem";
+
 export default function Blog() {
   return (
-    <div className="bg-white p-4 rounded-lg shadow-md"> Blog </div>
+    <>
+      <Banner />
+      <BlogList/>
+      <FaqItem/>
+    </>
   );
 }

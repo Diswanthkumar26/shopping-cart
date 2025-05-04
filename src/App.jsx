@@ -24,8 +24,7 @@ function App() {
               <ProductList />
               <CarouselCards />
               <DealsFinder />
-              <Footer />
-              <BottomNavbar />
+              
             </>
           }
         />
@@ -33,8 +32,15 @@ function App() {
         <Route path="/deal-finder" element={<div>Deal Finder</div>} />
         <Route path="/coupons" element={<div>Coupons</div>} />
         <Route path="/quiz" element={<div>Quiz</div>} />
-        <Route path="/blog" element={<Blog />} />
+        <Route path="/blog" element={
+          <>
+          <Blog />
+        </>
+        } 
+        />
       </Routes>
+      <Footer />
+      <BottomNavbar />
     </>
   );
 }
