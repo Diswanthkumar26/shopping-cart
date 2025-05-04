@@ -5,49 +5,49 @@ import SampleImg from "../assets/apple-iphone-smartphone-desk.webp"
 const sampleProducts = [
   {
     id: 1,
-    title: "Samsung 32-inch Smart TV",
+    title: '[Extra ₹6000 Off] BLACK+DECKER (32") A1 Series HD Ready',
     image: SampleImg,
     offer: "65% off",
   },
   {
     id: 2,
-    title: "Motorola QLED HD TV",
+    title: 'MOTOROLA 32HDGQMVS2Q (32") QLED HD Ready Smart',
     image: SampleImg,
     offer: "62% off",
   },
   {
     id: 3,
-    title: "Samsung LED TV",
+    title: 'Samsung UA32T4380AKXXL 32" HD Ready Smart LED',
     image: SampleImg,
     offer: "42% off",
   },
   {
     id: 4,
-    title: "Infinix Linux TV",
+    title: 'Infinix 32Y1S 32" inch HD Ready LED Smart Linux TV 2024 Edition',
     image: SampleImg,
     offer: "58% off",
   },
   {
     id: 5,
-    title: "Redmi Smart TV",
+    title: 'REDMI (32") HD LED Smart FireTv OS 7 TV L32MA-FVIN',
     image: SampleImg,
     offer: "49% off",
   },
   {
     id: 6,
-    title: "LG WebOS TV",
+    title: 'Sony Bravia 32W830K 32" HD Ready Google TV',
     image: SampleImg,
     offer: "55% off",
   },
   {
     id: 7,
-    title: "Realme Android TV",
+    title: 'OnePlus Y Series 32" HD Ready Smart LED TV',
     image: SampleImg,
     offer: "51% off",
   },
   {
     id: 8,
-    title: "OnePlus Y Series",
+    title: 'Xiaomi Smart TV 5A 32" HD Ready Android TV',
     image: SampleImg,
     offer: "57% off",
   },
@@ -86,21 +86,21 @@ const HorizontalCarousel = () => {
           {sampleProducts.map((product) => (
             <div
               key={product.id}
-              className="min-w-[200px] bg-white rounded shadow p-2 flex-shrink-0"
+              className="max-w-[200px] bg-white rounded shadow p-2 flex-shrink-0"
             >
               <div className="relative inline-block w-64 flex-shrink-0 bg-transparent">
-                <div className="absolute top-2 right-0 bg-red-600 text-white text-xs px-2 py-1 rounded-full z-10">
+                <div className="absolute top-0 right-15 bg-red-600 text-white text-xs px-2 py-1 rounded-full z-10">
                   {product.offer}
                 </div>
               </div> 
               <img
                 src={product.image}
                 alt={product.title}
-                className="w-full h-32 object-cover rounded"
+                className="w-[60] h-32 object-cover rounded"
               />
-              <div className="mt-2 text-sm font-medium text-gray-800">
+              <p className="text-sm text-gray-700 font-medium mt-2 text-center overflow-hidden text-ellipsis">
                 {product.title}
-              </div>
+              </p>
                
             </div>
           ))}
