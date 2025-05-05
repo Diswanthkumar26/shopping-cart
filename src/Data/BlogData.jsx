@@ -100,7 +100,7 @@ export const blogs = [
     image: img2,
     content: (
       <>
-        <div className="container mx-auto bg-white shadow py-6">
+        <div className="container mx-auto bg-white shadow px-4 py-6">
           <div className="flex justify-center">
             <div className="w-[80px]"></div>
             <div className="w-full max-w-4xl description">
