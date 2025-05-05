@@ -8,6 +8,7 @@ import ProductList from "./subComponents/ProductList";
 import CarouselCards from "./subComponents/CarouselCards";
 import Footer from "./components/Footer";
 import BottomNavbar from "./components/BottomNavbar";
+import BlogDetails from "./blogs/BlogDetails";
 import "./App.css";
 
 function App() {
@@ -32,12 +33,8 @@ function App() {
         <Route path="/deal-finder" element={<div>Deal Finder</div>} />
         <Route path="/coupons" element={<div>Coupons</div>} />
         <Route path="/quiz" element={<div>Quiz</div>} />
-        <Route path="/blog" element={
-          <>
-          <Blog />
-        </>
-        } 
-        />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/:id" element={<BlogDetails />} /> 
       </Routes>
       <Footer />
       <BottomNavbar />
