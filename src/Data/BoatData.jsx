@@ -25,11 +25,11 @@ import BoatImg24 from "../assets/Blogs/blog details/boat details/boat24.jpg";
 
 const BoatData = [
   {
-    name: "boAt Airdopes Plus 311, Glass Design, Dual Mics",
+    name: " boAt Airdopes Plus 311, Glass Design, Dual Mics ENx, Fast Charge, 50 Hrs",
     image: BoatImg1,
   },
   {
-    name: "boAt Airdopes Joy, 35Hrs Battery, Fast Charge, IWP",
+    name: "boAt Airdopes Joy, 35Hrs Battery, Fast Charge, IWP Tech, TWS Ear Buds",
     image: BoatImg2,
   },
   {
@@ -37,11 +37,11 @@ const BoatData = [
     image: BoatImg3,
   },
   {
-    name: "Boat Rockerz 245 v2 Pro, 30HRS Battery, ENx Tech",
+    name: "Boat Rockerz 245 v2 Pro, 30HRS Battery, ENx Tech, FastCharge,",
     image: BoatImg4,
   },
   {
-    name: "boAt Immortal 125 TWS in-Ear Earbuds w/up to 40 hrs",
+    name: "boAt Immortal 125 TWS in-Ear Earbuds w/up to 40 hrs Playtime, IPX4",
     image: BoatImg5,
   },
   {
@@ -53,71 +53,71 @@ const BoatData = [
     image: BoatImg7,
   },
   {
-    name: "boAt Rockerz 425 Bluetooth Wireless Over",
+    name: "boAt Rockerz 425 Bluetooth Wireless Over Ear Headphones with Mic",
     image: BoatImg8,
   },
   {
-    name: "boAt Airdopes Plus 311, Glass Design, Dual Mics",
+    name: "boAt Airdopes Drift TWS Earbuds w/ 40hrs Playback",
     image: BoatImg9,
   },
   {
-    name: "boAt Airdopes Joy, 35Hrs Battery, Fast Charge, IWP",
+    name: "boAt Stone 193 Pro w/ 5W Signature Sound, Up to 12hrs of Playtime, Type-C",
     image: BoatImg10,
   },
   {
-    name: "boAt Airdopes Primo in Ear Headphone (Active Black)",
+    name: "boAt Rockerz 195 Pro Bluetooth Wireless in-Ear Neckband w/Up to 20",
     image: BoatImg11,
   },
   {
-    name: "Boat Rockerz 245 v2 Pro, 30HRS Battery, ENx Tech",
+    name: "boAt Nirvana Space w/ 360º Spatial Audio, ANC Up to 32dB, 100hrs",
     image: BoatImg12,
   },
   {
-    name: "boAt Immortal 125 TWS in-Ear Earbuds w/up to 40 hrs",
+    name: "boAt Rockerz 111, 40HRS Battery, Dual Device Pairing, ENx Tech, Low Latency",
     image: BoatImg13,
   },
   {
-    name: "boAt Airdopes 280 ANC TWS in-Ear Earbuds",
+    name: "boAt Airdopes 300 Premium Truly Wireless in-Ear Earbuds",
     image: BoatImg14,
   },
   {
-    name: "boAt Rockerz 460 Wireless Over Ear Headphones",
+    name: "boAt Nirvana X TWS Earbuds (Cosmic Onyx)",
     image: BoatImg15,
   },
   {
-    name: "boAt Rockerz 425 Bluetooth Wireless Over",
+    name: "boAt Rockerz 551 ANC Pro, 42dB Hybrid Adaptive ANC, App Support",
     image: BoatImg16,
   },
   {
-    name: "boAt Airdopes Plus 311, Glass Design, Dual Mics",
+    name: "boAt New Launch Nirvana Crystl, Transparent Case,Spatial Audio",
     image: BoatImg17,
   },
   {
-    name: "boAt Airdopes Joy, 35Hrs Battery, Fast Charge, IWP",
+    name: "boAt Airdopes 311 Pro TWS in-Ear Earbuds (Active Black)",
     image: BoatImg18,
   },
   {
-    name: "boAt Airdopes Primo in Ear Headphone (Active Black)",
+    name: "boAt Airdopes 141 Pro Buds",
     image: BoatImg19,
   },
   {
-    name: "Boat Rockerz 245 v2 Pro, 30HRS Battery, ENx Tech",
+    name: "boAt Immortal 181 in Ear TWS Gaming Earbuds with up to 40 hrs Playtime",
     image: BoatImg20,
   },
   {
-    name: "boAt Immortal 125 TWS in-Ear Earbuds w/up to 40 hrs",
+    name: " boAt Rockerz 103 Pro Bluetooth Earphones",
     image: BoatImg21,
   },
   {
-    name: "boAt Airdopes 280 ANC TWS in-Ear Earbuds",
+    name: "boAt Rockerz 550 Over-Ear Bluetooth Headphones",
     image: BoatImg22,
   },
   {
-    name: "boAt Rockerz 460 Wireless Over Ear Headphones",
+    name: "boAt Airdopes 172 True Wireless in Ear Earbuds with ENx™ Tech, Beast Mode",
     image: BoatImg23,
   },
   {
-    name: "boAt Rockerz 425 Bluetooth Wireless Over",
+    name: "boAt Airdopes 141 Pro Buds, 13mm Drivers, TWS Earbuds",
     image: BoatImg24,
   },
  
