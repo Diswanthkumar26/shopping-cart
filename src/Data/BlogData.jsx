@@ -15,6 +15,16 @@ import BoatAir4 from "../assets/Blogs/blog details/boat details/boatAir4.jpg";
 import BoatAir5 from "../assets/Blogs/blog details/boat details/boatAir5.jpg";
 import BoatAir6 from "../assets/Blogs/blog details/boat details/boatAir6.jpg";
 import AmazonPrimeImg from "../assets/Blogs/blog details/amazon-prime-day.webp";
+import howtoEarn from "../assets/Blogs/blog details/howtoearns.webp";
+import FreeMobileImg from "../assets/Blogs/blog details/freeEarn.jpg";
+import SuperCoin1 from "../assets/Blogs/blog details/supecoin/img1.jpg";
+import SuperCoin2 from "../assets/Blogs/blog details/supecoin/img2.webp";
+import SuperCoin3 from "../assets/Blogs/blog details/supecoin/img3.webp";
+import SuperCoin4 from "../assets/Blogs/blog details/supecoin/img4.webp";
+import SuperCoin5 from "../assets/Blogs/blog details/supecoin/img5.webp";
+import SuperCoin6 from "../assets/Blogs/blog details/supecoin/img6.webp";
+import SuperCoin7 from "../assets/Blogs/blog details/supecoin/img7.webp";
+import VoltasImg from "../assets/Blogs/blog details/Voltas-AC.png";
 import BoatAirdopesCards from "../subComponents/BoatAirdopesCards";
 import ProductTable from "../blogs/ProductTable";
 import SubscriptionPlans from "../blogs/SubscriptionPlans";
@@ -79,7 +89,7 @@ export const blogs = [
               </p>
               <p className="mb-4">
                 <a
-                  href="https://www.dealsmagnet.com/RedirectTo/?url=https%3A%2F%2Fwww.amazon.in%2Falm%2Fstorefront%2F%3F_encoding%3DUTF8%26almBrandId%3Dctnow%26ref_%3Dtopnav_storetab_nowstore&amp;key=amazon-fresh"
+                  href="#"
                   className="bg-cyan-300 text-black px-2 py-1 inline-block rounded text-lg font-semibold"
                 >
                   Shop @ Amazon Fresh 🛒
@@ -114,6 +124,7 @@ export const blogs = [
           <div className="flex justify-center">
             <div className="w-[80px]"></div>
             <div className="w-full max-w-4xl description">
+              <h3 className="text-xl font-semibold text-yellow-500 pt-5 pb-5 mb-8 text-center"></h3>
               <h1 className="text-4xl font-semibold text-gray-800 mb-8 text-center">
                 Boat Airdopes Latest Version and Latest Model
               </h1>
@@ -496,7 +507,7 @@ export const blogs = [
               <div className="pl-0 bg-white shadow-[0px_4px_8px_rgba(0,0,0,0.1)] p-2 border-l-2 border-blue-500">
                 <ol className=" text-blue-900 pl-4 space-y-1">
                   <li>
-                    <a href="#Boat-Airdopes-Latest-Version-and-Latest-Model">
+                    <a href="#">
                       <span>1.</span>Boat Airdopes Latest Version and Latest
                       Model
                     </a>
@@ -505,7 +516,7 @@ export const blogs = [
                 <div className="ml-2 pl-0 bg-white shadow-[0px_4px_8px_rgba(0,0,0,0.08)] p-2 border-l-2 border-blue-500">
                   <ol className=" pl-6 mt-2 space-y-1">
                     <li>
-                      <a href="#Latest-Launched-Boat-Airdopes">
+                      <a href="#">
                         <span>1.1.</span>Latest Launched Boat Airdopes
                       </a>
                     </li>
@@ -513,48 +524,48 @@ export const blogs = [
                   <div className="ml-2 pl-0 bg-white shadow-[0px_4px_8px_rgba(0,0,0,0.06)] p-2 border-l-2 border-blue-500">
                     <ol className=" pl-6 mt-2 space-y-1">
                       <li>
-                        <a href="#boAt-Airdopes-501-ANC-True-Wireless-Earbuds-with-Hybrid-ANC">
+                        <a href="#">
                           <span>1.1.1.</span>boAt Airdopes 501 ANC True Wireless
                           Earbuds with Hybrid ANC
                         </a>
                       </li>
                       <li>
-                        <a href="#boAt-Airdopes-391-True-Wireless-Earbuds-with-Qualcomm-aptx--CVC">
+                        <a href="#">
                           <span>1.1.2.</span>boAt Airdopes 391 True Wireless
                           Earbuds with Qualcomm aptx & CVC
                         </a>
                       </li>
                       <li>
-                        <a href="#boAt-Airdopes-101-Bluetooth-Headset-True-Wireless">
+                        <a href="#">
                           <span>1.1.3.</span>boAt Airdopes 101 Bluetooth Headset
                           (True Wireless)
                         </a>
                       </li>
                       <li>
-                        <a href="#boAt-Airdopes-381-Bluetooth-Headset-with-Mic">
+                        <a href="#">
                           <span>1.1.4.</span>boAt Airdopes 381 Bluetooth Headset
                           with Mic
                         </a>
                       </li>
                       <li>
-                        <a href="#boAt-Airdopes-711-TWS-with-Up-to-50H-Playback-IWP-Technology">
+                        <a href="#">
                           <span>1.1.5.</span>boAt Airdopes 711 TWS with Up to
                           50H Playback, IWP Technology
                         </a>
                       </li>
                       <li>
-                        <a href="#boAt-Airdopes-441-TWS-EarBuds">
+                        <a href="#">
                           <span>1.1.6.</span>boAt Airdopes 441 TWS Ear-Buds
                         </a>
                       </li>
                       <li>
-                        <a href="#boAt-Airdopes-131-Bluetooth-Headset-True-Wireless">
+                        <a href="#">
                           <span>1.1.7.</span>boAt Airdopes 131 Bluetooth Headset
                           (True Wireless)
                         </a>
                       </li>
                       <li>
-                        <a href="#boAt-Airdopes-141-True-Wireless-Earbuds-with-42-Hours-Playback">
+                        <a href="#">
                           <span>1.1.8.</span>boAt Airdopes 141 True Wireless
                           Earbuds with 42 Hours Playback
                         </a>
@@ -582,6 +593,7 @@ export const blogs = [
           <div className="flex justify-center">
             <div className="w-[80px]"></div>
             <div className="w-full max-w-4xl description">
+              <h3 className="text-xl font-semibold text-yellow-500 pt-5 pb-5 mb-8 text-center"></h3>
               <h1 className="text-4xl font-semibold text-gray-800 mb-8 text-center">
                 Amazon Prime Day: Best deals, new launches, bank offers & more
               </h1>
@@ -1136,7 +1148,340 @@ export const blogs = [
     author: "iamgroot",
     date: "25 July, 2021",
     image: img4,
-    content: "Full content for Flipkart Supercoins blog.",
+    content: (
+      <>
+        <div className="container mx-auto bg-white shadow px-4 py-6">
+          <div className="flex justify-center">
+            <div className="w-[80px]"></div>
+            <div className="w-full max-w-4xl description">
+              <h3 className="text-xl font-semibold text-yellow-500 pt-5 pb-5 mb-8 text-center"></h3>
+              <h1 className="text-4xl font-semibold text-gray-800 mb-8 text-center">
+                Earn SuperCoins in Flipkart for free | Steps to get Flipkart
+                SuperCoins | Dealsmagnet
+              </h1>
+              <h3 className="text-xl font-semibold text-yellow-500 pt-5 pb-5 mb-8 text-center"></h3>
+              <p className="text-gray-700 mb-4">
+                Flipkart's SuperCoin is a rewarding system for Flipkarts users.
+                There are numerous methods and steps to earn SuperCoins on
+                Flipkart. These SuperCoins can be used at various stages on
+                Flipkart for Shoppings and Discounts to Memberships and
+                Subscription.
+              </p>
+              <h1 className="text-3xl font-semibold text-gray-800 mb-4">
+                What is SuperCoin?
+              </h1>
+              <p className="text-gray-700 mb-4">
+                SuperCoin is the unique rewarding solution by an Indian
+                E-Commerce giant for their consumers. Flipkart rewards the
+                consumers for every purchase in the form of SuperCoins. This
+                online selling platform does add up some options other than use
+                into their own ecosystem. Because of Flipkart's unique approach
+                and variety in Redemption, SuperCoins finally getting some
+                popularity and momentum across the Old school rewarding methods.
+              </p>
+              <h1 className="text-3xl font-semibold text-gray-800 mb-4">
+                How to Earn SuperCoins
+              </h1>
+              <p className="text-gray-700 mb-8 pb-8">
+                Earning SuperCoins on Flipkart is both, simple and hard at the
+                same time. You can always earn SuperCoins by shopping,
+                performing tasks, watching videos, playing games, participating
+                in quizzes, referrals or inviting on game zone and more.
+                Flipkart Plus users can get 4 coins per 100 rupees shopping and
+                a maximum of 100 SuperCoins per order, However, Non-Plus (Other
+                User/ Regular) users earn 2 coins per 100 rupees expended and a
+                maximum of 50 SuperCoins per order. After earning 200
+                SuperCoins, Plus Membership gets auto-renewed for Free. You can
+                earn SuperCoins as applicable by utilizing services on partners
+                like Ola, Oyo, and more(Flipkart's Strategy Partners) via the
+                Flipkart SuperCoin Zone. Moreover, Consumers can book flights on
+                Flipkarts App and get SuperCoins benefits.
+              </p>
+              <p className="mb-2 pb-2">
+                <img
+                  className="mx-auto"
+                  src={howtoEarn}
+                  alt="Amazon Fresh"
+                  width="350"
+                  height="350"
+                />
+              </p>
+              <p className="text-gray-700 mb-8 pb-8">
+                However, there are ways to get Free SuperCoins without buying
+                products or paying for services on Flipkart. You can Participate
+                in Contests and Quizzes, Watching Videos, Play Games on the
+                Flipkart App and earn SuperCoins.
+              </p>
+              <h1 className="text-3xl font-semibold text-gray-800 mb-4">
+                Get Free SuperCoins in Flipkart
+              </h1>
+              <p className="text-gray-700 mb-6 pb-6">
+                There are different ways to get SuperCoins for free. These Coins
+                are the same properties and usability as regular SuperCoins.
+              </p>
+              <p className="mb-2 pb-2">
+                <img
+                  className="mx-auto"
+                  src={SuperCoin1}
+                  alt="Amazon Fresh"
+                  width="550"
+                  height="350"
+                />
+              </p>
+              <p className="text-lg font-semibold mb-2">
+                List of ways to get Free SuerCoins
+              </p>
+              <div className="border-l-2 border-blue-500 shadow pl-4 px-2 mb-8 py-4">
+                <ul className="list-disc list-inside text-black-600 space-y-2">
+                  <li className="hover:shadow px-4">
+                    Watching Video on Flipkart Video
+                  </li>
+                  <li className="hover:shadow  px-4">
+                    Participating Contests and Quiz
+                  </li>
+                  <li className="hover:shadow  px-4">Playing Games</li>
+                  <li className="hover:shadow  px-4">Special Events</li>
+                  <li className="hover:shadow  px-4">Inviting Referrals</li>
+                </ul>
+              </div>
+              <h2 className="text-2xl font-semibold mb-2">
+                Watching Video on Flipkart Video
+              </h2>
+              <p className="text-gray-700 mb-4 pb-4">
+                Flipkart offers free SuperCoins on watching videos on Flipkart.
+              </p>
+              <p className="mb-2 pb-2">
+                <img
+                  className="mx-auto"
+                  src={SuperCoin2}
+                  alt="Amazon Fresh"
+                  width="550"
+                  height="350"
+                />
+              </p>
+              <ol className="list-decimal list-inside text-black-600 px-4 space-y-2 mb-2 pb-2">
+                <li className="px-1">Open Flipkart App</li>
+                <li className="px-1">Login to Account</li>
+                <li className="px-1">Navigate to Flipkart Video</li>
+                <li className="px-1">
+                  Play Video and Follow Terms and Conditions
+                </li>
+                <li className="px-1">
+                  Rewards will be added to your SuperCoin Balance
+                </li>
+              </ol>
+              <h2 className="text-2xl font-semibold mb-4">
+                What kind of special quizzes:
+              </h2>
+              <ol className="list-decimal list-inside text-black-600 px-4 space-y-2 mb-4">
+                <li className="px-1">Amazon Daily Quiz</li>
+                <li className="px-1">Specific mobile Launch</li>
+                <li className="px-1">New Mobile Launches Quiz</li>
+                <li className="px-1">Every Sunday Wheel of Fortunes</li>
+                <li className="px-1">Every Wednesday Jackpot</li>
+                <li className="px-1">Sponsored quizzes</li>
+                <li className="px-1">Event-specific</li>
+              </ol>
+              <p className="text-gray-700 mb-2">
+                You Can directly visit the Flipkart video here
+              </p>
+              <p className="text-gray-700 mb-6 pb-6">
+                You can stream content and watch all your favourite shows, web
+                series, and movies on the Flipkart app with more than 5000
+                shows. There are also weekly rewards for daily streaming.
+              </p>
+              <h1 className="text-3xl font-semibold text-gray-800 mb-4">
+                Participating Contests and Quiz
+              </h1>
+              <p className="text-gray-700 mb-4">
+                Users can claim free SuperCoins by submitting quizzes and win
+                guaranteed rewards as SuperCoins, Flipkart GiftCards,
+                Electronics Accessories Gift. We, Dealsmagnet, are updating
+                daily all the quizzes of Flipkart at{" "}
+                <span className="font-bold">Today Flipkart Answers Daily</span>{" "}
+                to ease you win the rewards.
+              </p>
+              <p className="mb-2 pb-2">
+                <img
+                  className="mx-auto"
+                  src={SuperCoin3}
+                  alt="Amazon Fresh"
+                  width="400"
+                  height="350"
+                />
+              </p>
+              <p className="text-lg font-semibold mb-2">
+                All Ongoing Flipkart Quizzes
+              </p>
+              <div className="border-l-2 border-blue-500 shadow pl-4 px-2 mb-2">
+                <ul className="list-disc list-inside text-black-600 space-y-2">
+                  <li className="hover:shadow px-4">
+                    Daily Trivia Quiz Answers
+                  </li>
+                  <li className="hover:shadow  px-4">Beat the Genius</li>
+                  <li className="hover:shadow  px-4">
+                    Prize Wali Pathsala Quiz Answers
+                  </li>
+                  <li className="hover:shadow  px-4">
+                    Khel Paheliyon Ka Quiz Answers
+                  </li>
+                  <li className="hover:shadow  px-4">
+                    Daam Sahi Hai Quiz Answers
+                  </li>
+                  <li className="hover:shadow  px-4">
+                    Fake or Not Fake Answers
+                  </li>
+                </ul>
+              </div>
+              <p className="text-gray-700 mb-2 pb-2">
+                You can also track the played quizzes and leftovers at
+                Dealsmagnets Android App for Deals, Quizzes
+              </p>
+              <ol className="list-decimal list-inside text-black-600 px-4 space-y-2 mb-2 pb-2">
+                <li className="px-1">Open Flipkart App</li>
+                <li className="px-1">Login to Account</li>
+                <li className="px-1">Navigate to Flipkart Video</li>
+                <li className="px-1">Participate Quizzes</li>
+                <li className="px-1">Guess answers and submit</li>
+                <li className="px-1">If You Luck, Win the quiz</li>
+                <li className="px-1">
+                  Rewards will be added to your SuperCoin Balance
+                </li>
+              </ol>
+              <p className="mb-2 pb-2">
+                <img
+                  className="mx-auto"
+                  src={SuperCoin4}
+                  alt="Amazon Fresh"
+                  width="450"
+                  height="350"
+                />
+              </p>
+              <p className="text-gray-700 mb-2 pb-2">
+                However, with dealsmagnet, you can easily submit an answer
+              </p>
+              <ol className="list-decimal list-inside text-black-600 px-4 space-y-2 mb-6 pb-4">
+                <li className="px-1">Visit Flipkart Answer</li>
+                <li className="px-1">Check Answer and Open Submit Quiz</li>
+                <li className="px-1">Submit answers and win</li>
+                <li className="px-1">
+                  Rewards added to your SuperCoin Balance
+                </li>
+              </ol>
+              <h1 className="text-3xl font-semibold text-gray-800 mb-2">
+                Playing Games
+              </h1>
+              <p className="text-gray-700 mb-4">
+                Playing games never been this fun until you get rewarded in
+                exchange for playing some simple games. By playing games, you
+                will win either SuperCoins or Flipkart Gems. Gems can be
+                converted into SuperCoins as a 100:1 ratio.
+              </p>
+              <p className="mb-2 pb-2">
+                <img
+                  className="mx-auto"
+                  src={SuperCoin5}
+                  alt="Amazon Fresh"
+                  width="450"
+                  height="350"
+                />
+              </p>
+              <p className="mb-2 pb-2">
+                <img
+                  className="mx-auto"
+                  src={SuperCoin7}
+                  alt="Amazon Fresh"
+                  width="400"
+                  height="350"
+                />
+              </p>
+              <p className="text-lg font-semibold mb-2">Step to Play Games</p>
+              <ol className="list-decimal list-inside text-black-600 px-4 space-y-2 mb-6 pb-6">
+                <li className="px-1">Open Flipkart App</li>
+                <li className="px-1">Navigate to Flipkart GameZone</li>
+                <li className="px-1">Play Games</li>
+                <li className="px-1">Get Rewards</li>
+              </ol>
+              <h1 className="text-3xl font-semibold text-gray-800 mb-2">
+                Special Events
+              </h1>
+              <p className="text-gray-700 mb-6 pb-6">
+                Flipkart hosts special events where you can earn free SuperCoins
+                like launching events or Extra SuperCoins over the purchase.
+                These are very limited events, enough to get plenty of
+                SuperCoins
+              </p>
+              <h1 className="text-3xl font-semibold text-gray-800 mb-2">
+                Inviting Referrals
+              </h1>
+              <p className="text-gray-700 mb-4">
+                Flipkart Unique Inviting method is very useful to claim quick
+                SuperCoins. Using this technique you can claim up to ₹1000 or
+                SuperCoins. For every 5 Referrals, you can get up to 100
+                SuperCoins to 25 SuperCoins randomly. The requirement for
+                claiming is, the invited user must click via your link and
+                submit the quiz. doesn't need to be won or all answers right.
+                you are eligible for guaranteed rewards.
+              </p>
+              <p className="mb-2 pb-2">
+                <img
+                  className="mx-auto"
+                  src={SuperCoin6}
+                  alt="Amazon Fresh"
+                  width="400"
+                  height="350"
+                />
+              </p>
+              <p className="text-lg font-semibold mb-2">
+                Specs for Inviting referrals
+              </p>
+              <div className="border-l-2 border-blue-500 shadow pl-4 px-2 mb-2">
+                <ul className="list-disc list-inside text-black-600 space-y-2">
+                  <li className="hover:shadow px-4">Open Flipkart Page</li>
+                  <li className="hover:shadow  px-4">
+                    Select Any Ongoing quiz
+                  </li>
+                  <li className="hover:shadow  px-4">
+                    Scroll Enough to see Invite Friends
+                  </li>
+                  <li className="hover:shadow  px-4">Share Your Unique link</li>
+                  <li className="hover:shadow  px-4">Claim Rewards</li>
+                </ul>
+              </div>
+              <p className="text-gray-700 mb-6 pb-6">
+                Note: Do Claim rewards after every 5 successful referral,
+                otherwise 6th invitation might not be considered and you
+                invitation might go in vain.
+              </p>
+              <h1 className="text-3xl font-semibold text-gray-800 mb-2">
+                How to use SuperCoin
+              </h1>
+              <p className="text-gray-700 mb-2">
+                There are many ways to utilize earned SuperCoins, many of which
+                led to SuperCoin Zone.
+              </p>
+              <div className="border-l-2 border-blue-500 shadow pl-4 px-2 mb-2">
+                <ul className="list-disc list-inside text-black-600 space-y-2">
+                  <li className="hover:shadow px-4">
+                    Buy Coupons & Gifs Voucher from the SuperCoin Zone
+                  </li>
+                  <li className="hover:shadow  px-4">
+                    Pay Via SuperCoins for Products on Flipkart
+                  </li>
+                  <li className="hover:shadow  px-4">
+                    Get Exclusive deals on SuperCoin Zone
+                  </li>
+                  <li className="hover:shadow  px-4">
+                    Book flight tickets on Flipkart App
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="w-[80px]"></div>
+          </div>
+        </div>
+      </>
+    ),
   },
   {
     id: "free-mobile",
@@ -1144,7 +1489,157 @@ export const blogs = [
     author: "iamgroot",
     date: "25 July, 2021",
     image: img5,
-    content: "Full content for Free Mobile on Amazon blog.",
+    content: (
+      <>
+        <div className="container mx-auto bg-white shadow px-4 py-6">
+          <div className="flex justify-center">
+            <div className="w-[80px]"></div>
+            <div className="w-full max-w-4xl description">
+              <h3 className="text-xl font-semibold text-yellow-500 pt-5 pb-5 mb-8 text-center"></h3>
+              <h1 className="text-4xl font-semibold text-gray-800 mb-8 text-center">
+                Win mobile for free on Amazon
+              </h1>
+              <h3 className="text-xl font-semibold text-yellow-500 pt-5 pb-5 mb-8 text-center">
+                Way to own smartphone without paying
+              </h3>
+              <p className="text-gray-700 mb-4">
+                To win a smartphone, Users need to follow these steps and answer
+                questions correctly until given duration.
+              </p>
+              <p className="text-gray-700 mb-4">
+                Amazon is running their Funzone segment for some of the
+                interesting contests such as quizzes, jackpots, spin and win and
+                more. There are multiple quizzes to participate in. Some of them
+                are rewarding and others are not. for the smartphone for free,
+                you have to participate in those quiz and submit the correct
+                answers to questions and be eligible for winning the contest.
+                after that, amazon will randomly choose the winner among the
+                winners of the questionary.
+              </p>
+              <p className="text-gray-700 mb-8 pb-8">
+                Amazon is verified and one of the well-respected sites across
+                the e-commerce business. They have uploaded multiple tweets of
+                users claiming to received their rewards. Other than a mobile
+                phone, there is a chance to win Pay Balance, Laptops, Giftcards
+                and multiple different prizes. Amazon is daily updating its
+                winner's list for rewards for all contest.
+              </p>
+              <p className="mb-8 pb-8">
+                <img
+                  className="mx-auto"
+                  src={FreeMobileImg}
+                  alt="Amazon Fresh"
+                  width="550"
+                  height="450"
+                />
+              </p>
+              <h2 className="text-2xl font-semibold mb-4">Steps to win:</h2>
+              <ol className="list-decimal list-inside text-black-600 px-4 space-y-2 mb-8 pb-8">
+                <li className="px-1">Got to Dealsmagnet Quiz section</li>
+                <li className="px-1">
+                  Select any contest on amazon that gives mobile phone as a free
+                  reward
+                </li>
+                <li className="px-1">
+                  Submit answers to amazon, after logging in to your account
+                </li>
+                <li className="px-1">Wait for the announcement of winners</li>
+                <li className="px-1">
+                  Congratulations if you won, if not, try to again and Start
+                  with step 1
+                </li>
+              </ol>
+              <p className="text-lg font-semibold mb-3">Note:</p>
+              <div className="border-l-2 border-blue-500 shadow pl-4 px-2 mb-8 py-4">
+                <ul className="list-disc list-inside text-black-600 space-y-2">
+                  <li className="hover:shadow px-4">
+                    It does not guaranty that you will win these contests
+                  </li>
+                  <li className="hover:shadow  px-4">
+                    Do check date duration for the contest
+                  </li>
+                </ul>
+              </div>
+              <h2 className="text-2xl font-semibold mb-4">
+                Different type of contests you can choose to join
+              </h2>
+              <ol className="list-decimal list-inside text-black-600 px-4 space-y-2 mb-8 pb-8">
+                <li className="px-1">Quiz Contest</li>
+                <li className="px-1">Spin and Win</li>
+                <li className="px-1">Jack Pots</li>
+                <li className="px-1">Wheel of Fortunes</li>
+              </ol>
+              <h2 className="text-2xl font-semibold mb-4">
+                What kind of special quizzes:
+              </h2>
+              <ol className="list-decimal list-inside text-black-600 px-4 space-y-2 mb-8 pb-8">
+                <li className="px-1">Amazon Daily Quiz</li>
+                <li className="px-1">Specific mobile Launch</li>
+                <li className="px-1">New Mobile Launches Quiz</li>
+                <li className="px-1">Every Sunday Wheel of Fortunes</li>
+                <li className="px-1">Every Wednesday Jackpot</li>
+                <li className="px-1">Sponsored quizzes</li>
+                <li className="px-1">Event-specific</li>
+              </ol>
+              <p className="text-gray-700 mb-8 pb-8">
+                With Dealsmagnet, we have done something that makes you easy to
+                win and track all ongoing contest. the Dealsmagnet App, minimize
+                efforts and time. for more details of those details checkout our
+                app Dealsmagnet App.
+              </p>
+              <h1 className="text-3xl font-semibold text-gray-800 mb-4">
+                Table of Contents
+              </h1>
+              <div className="pl-0 bg-white shadow-[0px_4px_8px_rgba(0,0,0,0.1)] p-2 border-l-2 border-blue-500">
+                <ol className=" text-blue-900 pl-4 space-y-1">
+                  <li>
+                    <a href="#">
+                      <span>1.</span>Win mobile for free on Amazon
+                    </a>
+                  </li>
+                </ol>
+                <div className="ml-2 pl-0 bg-white shadow-[0px_4px_8px_rgba(0,0,0,0.08)] p-2 border-l-2 border-blue-500">
+                  <ol className=" pl-6 mt-2 space-y-1">
+                    <li>
+                      <a href="#">
+                        <span>1.1.</span>Way to own smartphone without paying
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <span>1.2.</span>Steps to win:
+                      </a>
+                    </li>
+                  </ol>
+
+                  <div className="ml-2 pl-0 bg-white shadow-[0px_4px_8px_rgba(0,0,0,0.06)] p-2 border-l-2 border-blue-500">
+                    <ol className=" pl-6 mt-2 space-y-1">
+                      <li>
+                        <a href="#boAt-Airdopes-501-ANC-True-Wireless-Earbuds-with-Hybrid-ANC">
+                          <span>1.2.1.</span>Note:
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#boAt-Airdopes-391-True-Wireless-Earbuds-with-Qualcomm-aptx--CVC">
+                          <span>1.2.2.</span>Different type of contests you can
+                          choose to join
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#boAt-Airdopes-101-Bluetooth-Headset-True-Wireless">
+                          <span>1.2.3.</span>What kind of special quizzes:
+                        </a>
+                      </li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="w-[80px]"></div>
+          </div>
+        </div>
+      </>
+    ),
   },
   {
     id: "voltas-ac",
@@ -1152,6 +1647,289 @@ export const blogs = [
     author: "shaktimaan",
     date: "25 July, 2021",
     image: img6,
-    content: "Full content for Voltas AC blog.",
+    content: (
+      <>
+        <div className="container mx-auto bg-white shadow px-4 py-6">
+          <div className="flex justify-center">
+            <div className="w-[80px]"></div>
+            <div className="w-full max-w-4xl description">
+              <h3 className="font-semibold text-yellow-500 pt-4 pb-4 mb-4 ">
+                Voltas ACs Warranty
+              </h3>
+              <h1 className="text-3xl font-semibold text-gray-800 mb-8 pb-8">
+                5 Years Warranty + 5 Year Annual Maintenance @ ₹2990 on Voltas
+                ACs on TataCliq
+              </h1>
+              <p className="mb-8 pb-8">
+                <img
+                  className="mx-auto"
+                  src={VoltasImg}
+                  alt="Amazon Fresh"
+                  width="550"
+                  height="450"
+                />
+              </p>
+              <h2 className="text-2xl font-semibold mb-4">
+                Old Warranty Scheme:
+              </h2>
+              <div className="border-l-2 border-blue-500 shadow pl-4 px-2 mb-8 py-4">
+                <ul className="list-disc list-inside text-black-600 space-y-2">
+                  <li className="hover:shadow px-4">
+                    If your Purchasing Voltas ACs from Tatacliq, Earlier you
+                    were getting a Free 5 Year Warranty but you need to
+                    Undertake 2 Preventive Maintenance Service worth ₹499+GST.
+                    Which costing an Additional ₹4999+GST for 5 Years. Know More
+                  </li>
+                </ul>
+              </div>
+              <h2 className="text-2xl font-semibold inline-block bg-green-500 text-white mb-4">
+                New Warranty Scheme:
+              </h2>
+              <div className="border-l-2 border-blue-500 shadow pl-4 px-2 mb-2 py-2">
+                <ul className="list-disc list-inside text-black-600 space-y-2">
+                  <li className="hover:shadow px-4">
+                    Now Scheme is Modified & Introduced as{" "}
+                    <span className="font-bold">
+                      {" "}
+                      5 Years Complete Protection Plan on Voltas ACs
+                    </span>{" "}
+                    in which 10 Preventive Maintenance Service during 5 Years
+                    will be charged ₹2990 as Onetime Cost & No Additional GST
+                    will be charged.
+                  </li>
+                </ul>
+              </div>
+              <p className="text-gray-700 mb-8 pb-8">
+                Just Pay Onetime ₹2990 & Get 5 Years Warranty & 5 Years
+                Preventive Maintenance Service. You Will get Unlimited Repairs
+                during warranty.
+              </p>
+              <h2 className="text-2xl font-semibold inline-block bg-green-500 text-white mb-4">
+                How to Buy
+              </h2>
+              <div className="border-l-2 border-blue-500 shadow pl-4 px-2 mb-8 py-2">
+                <ul className="list-disc list-inside text-black-600 space-y-2">
+                  <li className="hover:shadow px-4">
+                    <span className="bg-red-500 text-white py-1 inline-block">
+                      Click Here to Go to Voltas ACs on TATACLIQ
+                    </span>
+                  </li>
+                  <li className="hover:shadow px-4">
+                    Add Voltas ACs having offer "Pay 2990 for 5 Year Complete
+                    Protection Plan (1+4 Year warranty including 10
+                    Maintenance)"
+                  </li>
+                  <li className="hover:shadow px-4">
+                    In Cart Add "5 Year Complete Protection Plan".
+                  </li>
+                </ul>
+              </div>
+              <p className="bg-orange-500 text-white text-2xl font-semibold px-2 inline box-decoration-clone leading-loose">
+                <a href="#">
+                  👉 Check Voltas ACs on Offer with 5 Years Warranty &
+                  Maintenance
+                </a>
+              </p>
+              <h2 className="text-2xl font-semibold mb-2 mt-8 pt-8">
+                Voltas AC Warranty Terms:
+              </h2>
+              <div className="border-l-2 border-blue-500 shadow pl-4 px-2 mb-2 py-4">
+                <ul className="list-disc list-inside text-black-600 space-y-2">
+                  <li className="hover:shadow px-4">
+                    This is regarding the secondary promotion scheme of 5 years
+                    complete protection plan (comprehensive warranty for 1 + 4
+                    year extended on Inverter, Fixed Speed Split & Window Air
+                    conditioners).
+                  </li>
+                  <li className="hover:shadow  px-4">
+                    100% cashless -No need of paying cash. Unlimited Repairs*
+                    during your plan duration. Manufacturer’s Warranty /
+                    Guarantee remains valid throughout its validity period.
+                  </li>
+                  <li className="hover:shadow px-4">
+                    Includes 2 visits of Annual Maintenance every year for total
+                    5 years, total 10 visits. Service by Brand Authorised
+                    Service Partners.
+                  </li>
+                  <li className="hover:shadow  px-4">
+                    This plan must be purchased together with Voltas AC from
+                    Tata CLiQ. Applicable only on for Household customers.
+                  </li>
+                  <li className="hover:shadow  px-4">
+                    This Warranty is on functional parts, PCB, Gas Charging &
+                    labour (for Repairs or replacements except plastic parts
+                    like grill, Consumables like Battery & other aesthetics
+                    Items, louvers. Etc, of the air conditioner for a period of
+                    60 months from the date of purchase)
+                  </li>
+                </ul>
+              </div>
+              <p className="text-lg font-semibold mb-3">
+                The benefit of AMC/Protection plan on Voltas AC with TataCliq
+              </p>
+              <div className="border-l-2 border-blue-500 shadow pl-4 px-2 mb-4">
+                <ul className="list-disc list-inside text-black-600 space-y-2">
+                  <li className="hover:shadow py-2 px-4">
+                    Voltas 5-year complete protection plan is applicable only
+                    for AC purchased from Tata CLiQ. Protection plan replicates
+                    and extends the original manufacturer s warranty offered by
+                    the manufacturer by additional 4 years. Protection plan will
+                    indemnify you against the repair and replacement costs in
+                    respect of the Air Conditioner product, caused by a
+                    breakdown arising out of manufacturing defects and/or due to
+                    poor workmanship of the service personnel of the authorised
+                    workshop during the policy period. Repair costs include
+                    parts, labour, and call-out charges. Will not be applicable
+                    for Improperly installed by third party, install under
+                    abnormal conditions, repaired by unauthorized personnel,
+                    modified, improper usage, or due to faulty electric
+                    supply/connection, Voltage fluctuations, Damage caused by
+                    accident, fire, or misuse, etc.
+                  </li>
+                  <li className="hover:shadow py-2 px-4">
+                    Dedicated Call Centre for Complaint Management and Call
+                    logging through mail and toll-free number, website, SMS
+                  </li>
+                  <li className="hover:shadow py-2 px-4">
+                    <span className="font-bold">Lower cooling costs-</span>{" "}
+                    Cleaning and adjusting various parts of your air conditioner
+                    will ensure that it operates at top efficiency.
+                  </li>
+                  <li className="hover:shadow py-2 px-4">
+                    <span className="font-bold">Fewer Breakdowns:</span> Having
+                    your system regularly checked will allow technician to spot
+                    and correct problems while they are still small and easy to
+                    fix. This means less inconvenience and expense down the
+                    road.
+                  </li>
+                  <li className="hover:shadow py-2 px-4">
+                    <span className="font-bold">
+                      Increased system lifespan:{" "}
+                    </span>
+                    As in the case with most mechanical equipment (and even our
+                    bodies), proper upkeep will help your air conditioner live a
+                    long and healthy life.
+                  </li>
+                  <li className="hover:shadow py-2 px-4">
+                    TATA GROUP commands trust and reliability.
+                  </li>
+                </ul>
+              </div>
+              <h2 className="text-2xl font-semibold mb-2 mt-8 pt-8">
+                Details In Brief
+              </h2>
+              <div className="border-l-2 border-blue-500 shadow pl-4 px-2 mb-2 py-4">
+                <ul className="list-disc list-inside text-black-600 space-y-2">
+                  <li className="hover:shadow px-4">
+                    5 Year comprehensive (1 + 4 year extended) Warranty on all
+                    Split & Window Air conditioners sold to retail individual /
+                    house hold customer. This Warranty is on functional parts,
+                    PCB, Gas Charging & labor (for Repairs or replacements
+                    except plastic parts like grill, louvers. Etc, of the air
+                    conditioner for a period of 60 months from the date of
+                    purchase)
+                  </li>
+                  <li className="hover:shadow  px-4">
+                    Tatacliq will pass the customer information to seller for
+                    the activation of this plan within 15 Days of successful
+                    delivery & Installation.
+                  </li>
+                </ul>
+              </div>
+              <p className="text-lg font-semibold mb-6">
+                Conditions of Warranty Cover:
+              </p>
+              <p className="text-lg mb-3">
+                This Service Contract is only valid if:
+              </p>
+              <ol className="list-decimal list-inside text-black-600 px-4 space-y-2 mb-8 pb-8">
+                <li className="px-1">The product is bought from Tata CLiQ.</li>
+                <li className="px-1">
+                  The Product is for domestic and personal use only. Cover is
+                  not valid on Products intended for commercial, rental or
+                  profit generation purposes excluding computing products for
+                  small office / home office use.
+                </li>
+                <li className="px-1">
+                  The Product is used in accordance with the manufacturer’s
+                  guidelines for Product usage including but not limited to
+                  regular maintenance & upkeep of the Product.
+                </li>
+                <li className="px-1">
+                  Manufacturer’s Warranty / Guarantee remains valid throughout
+                  its validity period.
+                </li>
+                <li className="px-1">
+                  100% installation call registration at Voltas customer care is
+                  mandatory to avail the warranty & AMC/ Protection Plan
+                </li>
+                <li className="px-1">
+                  AMC Customers have to respond to the Preventive Maintenance
+                  Notification or register SR in Voltas Call Center / or via
+                  WhatsApp, Website, IVR
+                </li>
+              </ol>
+              <p className="text-lg font-semibold mb-3">Offer Exclusions:</p>
+              <div className="border-l-2 border-blue-500 shadow pl-4 px-2 mb-4">
+                <ul className="list-disc list-inside text-black-600 space-y-2">
+                  <li className="hover:shadow py-2 px-4">
+                    Offer is not applicable on any institutional sa
+                  </li>
+                  <li className="hover:shadow py-2 px-4">
+                    Sale through E-Commerce channel except for sale through
+                    TataCliq
+                  </li>
+                  <li className="hover:shadow py-2 px-4">
+                    Extended warranty is valid only for "Household customers" &
+                    is not applicable for commercial usage. Not applicable if
+                    unit needs to be installed in office
+                  </li>
+                  <li className="hover:shadow py-2 px-4">
+                    <span className="font-bold">Fewer Breakdowns:</span> Having
+                    your system regularly checked will allow technician to spot
+                    and correct problems while they are still small and easy to
+                    fix. This means less inconvenience and expense down the
+                    road.
+                  </li>
+                  <li className="hover:shadow py-2 px-4">
+                    Improperly installed by the third party, install under
+                    abnormal conditions, repaired by unauthorized personnel,
+                    modified, improper usage, or due to faulty electric
+                    supply/connection, Voltage fluctuations, Damage caused by
+                    accident, fire or misuse, etc.
+                  </li>
+                  <li className="hover:shadow py-2 px-4">
+                    The original serial numbers are removed, obliterated or
+                    altered from the air conditioner.
+                  </li>
+                  <li className="hover:shadow py-2 px-4">
+                    Note: If the provided details are found to be incorrect at
+                    any point of time during the said period then warranty will
+                    not be applicable.
+                  </li>
+                </ul>
+              </div>
+              <p className="text-lg font-semibold mb-3">
+                Extended Warranty Registration Process
+              </p>
+              <div className="border-l-2 border-blue-500 shadow pl-4 px-2 mb-1">
+                <ul className="list-disc list-inside text-black-600 space-y-2">
+                  <li className="hover:shadow py-2 px-4">
+                    If Voltas 5 Year Protection plan has been bought with the
+                    AC, you will automatically receive a policy certificate
+                    within 30 days of AC delivery/Installation. TnC for Tata
+                    Cliq - Labour AMC for W-5 customers.
+                  </li>
+                </ul>
+              </div>
+              <p className="text-lg mb-3">
+                Check Detailed TnC Here
+              </p>
+            </div>
+            <div className="w-[80px]"></div>
+          </div>
+        </div>
+      </>
+    ),
   },
 ];
