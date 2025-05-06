@@ -1,4 +1,4 @@
-import bgImage from "../assets/Blogs/blog-bannar.png";
+import bgImage from "../../assets/Blogs/blog-bannar.png";
 
 const Banner = () => {
   return (

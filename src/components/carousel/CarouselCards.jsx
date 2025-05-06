@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
-import SampleImg from "../assets/apple-iphone-smartphone-desk.webp"
+import SampleImg from "../../assets/apple-iphone-smartphone-desk.webp"
 
 const sampleProducts = [
   {
@@ -96,7 +96,7 @@ const HorizontalCarousel = () => {
               <img
                 src={product.image}
                 alt={product.title}
-                className="w-[60] h-32 object-cover rounded"
+                className=" h-32 object-cover rounded"
               />
               <p className="text-sm text-gray-700 font-medium mt-2 text-center overflow-hidden text-ellipsis">
                 {product.title}

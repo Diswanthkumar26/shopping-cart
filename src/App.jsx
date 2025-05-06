@@ -1,14 +1,14 @@
 import { Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import DealsFilter from "./subComponents/DealsFilter";
+import Navbar from "./components/common/Navbar";
+import DealsFilter from "./components/deals/DealsFilter";
 import { useSelector } from "react-redux";
-import Blog from "./components/Blog";
-import DealsFinder from "./components/DealsFinder";
-import ProductList from "./subComponents/ProductList";
-import CarouselCards from "./subComponents/CarouselCards";
-import Footer from "./components/Footer";
-import BottomNavbar from "./components/BottomNavbar";
-import BlogDetails from "./blogs/BlogDetails";
+import Blog from "./components/blog/Blog";
+import DealsFinder from "./components/deals/DealsFinder";
+import ProductList from "./components/product/ProductList";
+import CarouselCards from "./components/carousel/CarouselCards";
+import Footer from "./components/common/Footer";
+import BottomNavbar from "./components/common/BottomNavbar";
+import BlogDetails from "./components/blog/BlogDetails";
 import "./App.css";
 
 function App() {

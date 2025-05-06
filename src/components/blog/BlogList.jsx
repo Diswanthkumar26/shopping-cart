@@ -1,5 +1,5 @@
-import { blogs } from '../Data/BlogData';
-import BlogCard from '../blogs/BlogCards';
+import { blogs } from '../../Data/BlogData';
+import BlogCard from './BlogCards';
 
 const BlogList = () => {
   return (

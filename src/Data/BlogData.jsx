@@ -26,8 +26,8 @@ import SuperCoin6 from "../assets/Blogs/blog details/supecoin/img6.webp";
 import SuperCoin7 from "../assets/Blogs/blog details/supecoin/img7.webp";
 import VoltasImg from "../assets/Blogs/blog details/Voltas-AC.png";
 import BoatAirdopesCards from "../subComponents/BoatAirdopesCards";
-import ProductTable from "../blogs/ProductTable";
-import SubscriptionPlans from "../blogs/SubscriptionPlans";
+import ProductTable from "../components/product/ProductTable";
+import SubscriptionPlans from "../subComponents/SubscriptionPlans";
 
 export const blogs = [
   {
@@ -1922,9 +1922,7 @@ export const blogs = [
                   </li>
                 </ul>
               </div>
-              <p className="text-lg mb-3">
-                Check Detailed TnC Here
-              </p>
+              <p className="text-lg mb-3">Check Detailed TnC Here</p>
             </div>
             <div className="w-[80px]"></div>
           </div>

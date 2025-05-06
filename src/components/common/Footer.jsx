@@ -1,4 +1,4 @@
-import GooglePlay from "../assets/google.png";
+import GooglePlay from "../../assets/google.png";
 
 const Footer = () => {
   return (

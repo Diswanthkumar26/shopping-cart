@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import AmazonImg from "../assets/Amazon_logo.svg.png";
+import AmazonImg from "../../assets/Amazon_logo.svg.png";
 
 export default function DealsFinder() {
   const [primeOnly, setPrimeOnly] = useState(false);
