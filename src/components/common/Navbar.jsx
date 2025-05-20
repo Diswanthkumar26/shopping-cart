@@ -1,11 +1,32 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import { useState } from "react";
 import { FiSearch } from "react-icons/fi";
 import { HiMenu, HiX } from "react-icons/hi";
 
 export default function Navbar() {
+  const location = useLocation();
   const [showSearch, setShowSearch] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+
+  const isDealFinderPage = location.pathname === "/deal-finder";
+
+  const defaultLinks = [
+    { to: "/", label: "Live Deals" },
+    { to: "/hotdeals", label: "Hotdeals" },
+    { to: "/deal-finder", label: "Deal Finder" },
+    { to: "/coupons", label: "Coupons" },
+    { to: "/quiz", label: "Quiz" },
+    { to: "/blog", label: "Blog" },
+  ];
+
+  const dealFinderLinks = [
+    { to: "/", label: "Justin" },
+    { to: "/hotdeals", label: "Hotdeals" },
+    { to: "/whatsapp", label: "WhatsApp" },
+    { to: "/telegram", label: "Telegram" },
+  ];
+
+  const navLinks = isDealFinderPage ? dealFinderLinks : defaultLinks;
 
   return (
     <nav className="bg-blue-800 text-white px-6 py-4 flex items-center justify-between relative">
@@ -14,12 +35,11 @@ export default function Navbar() {
         <span className="text-xl font-semibold">Offerhubdeals</span>
       </div>
       <div className="hidden md:flex flex-1 justify-center space-x-6 font-medium">
-        <NavLink to="/" className="hover:underline text-lg">Live Deals</NavLink>
-        <NavLink to="/" className="hover:underline text-lg">Hotdeals</NavLink>
-        <NavLink to="/" className="hover:underline text-lg">Deal Finder</NavLink>
-        <NavLink to="/" className="hover:underline text-lg">Coupons</NavLink>
-        <NavLink to="/" className="hover:underline text-lg">Quiz</NavLink>
-        <NavLink to="/blog" className="hover:underline text-lg">Blog</NavLink>
+        {navLinks.map((link, index) => (
+          <NavLink key={index} to={link.to} className="hover:underline text-lg">
+            {link.label}
+          </NavLink>
+        ))}
       </div>
       <div className="flex items-center space-x-4 z-20">
         <button
@@ -37,16 +57,13 @@ export default function Navbar() {
       </div>
       {menuOpen && (
         <div className="md:hidden absolute top-full right-0 w-[200px] h-[100vh] bg-blue-800 flex flex-col items-start p-4 space-y-2 font-medium z-10">
-          <NavLink to="/" className="w-full hover:underline">Live Deals</NavLink>
-          <NavLink to="/" className="w-full hover:underline">Hotdeals</NavLink>
-          <NavLink to="/" className="w-full hover:underline">Deal Finder</NavLink>
-          <NavLink to="/" className="w-full hover:underline">Coupons</NavLink>
-          <NavLink to="/" className="w-full hover:underline">Quiz</NavLink>
-          <NavLink to="/blog" className="w-full hover:underline">Blog</NavLink>
+          {navLinks.map((link, index) => (
+            <NavLink key={index} to={link.to} className="w-full hover:underline">
+              {link.label}
+            </NavLink>
+          ))}
         </div>
       )}
-
-      {/* Search Box */}
       {showSearch && (
         <div className="absolute bg-white top-16 right-4 w-48 p-2 rounded shadow-md text-gray-800 z-20">
           <input

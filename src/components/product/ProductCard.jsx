@@ -1,4 +1,3 @@
-import React from "react";
 import { FiTag } from "react-icons/fi";
 import { FiClock } from "react-icons/fi";
 

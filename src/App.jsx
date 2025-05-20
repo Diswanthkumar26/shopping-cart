@@ -1,11 +1,10 @@
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/common/Navbar";
-import DealsFilter from "./components/deals/DealsFilter";
 import { useSelector } from "react-redux";
+import Home from "./pages/Home";
+import HotDeals from "./pages/HotDeals";
+import DealFinder from "./pages/DealFinder";
 import Blog from "./components/blog/Blog";
-import DealsFinder from "./components/deals/DealsFinder";
-import ProductList from "./components/product/ProductList";
-import CarouselCards from "./components/carousel/CarouselCards";
 import Footer from "./components/common/Footer";
 import BottomNavbar from "./components/common/BottomNavbar";
 import BlogDetails from "./components/blog/BlogDetails";
@@ -17,20 +16,9 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route
-          path="/"
-          element={
-            <>
-              <DealsFilter />
-              <ProductList />
-              <CarouselCards />
-              <DealsFinder />
-              
-            </>
-          }
-        />
-        <Route path="/hotdeals" element={<div>Hot Deals Page</div>} />
-        <Route path="/deal-finder" element={<div>Deal Finder</div>} />
+        <Route path="/"element={<Home /> }/>
+        <Route path="/hotdeals" element={<HotDeals />} />
+        <Route path="/deal-finder" element={<DealFinder />} />
         <Route path="/coupons" element={<div>Coupons</div>} />
         <Route path="/quiz" element={<div>Quiz</div>} />
         <Route path="/blog" element={<Blog />} />
