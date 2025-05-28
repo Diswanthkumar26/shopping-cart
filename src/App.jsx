@@ -8,10 +8,10 @@ import Blog from "./components/blog/Blog";
 import Footer from "./components/common/Footer";
 import BottomNavbar from "./components/common/BottomNavbar";
 import BlogDetails from "./components/blog/BlogDetails";
+import ProductDetails from "./components/product/ProductDetails";
 import "./App.css";
 
 function App() {
-  const products = useSelector((state) => state.product.products);
   return (
     <>
       <Navbar />
@@ -23,6 +23,7 @@ function App() {
         <Route path="/quiz" element={<div>Quiz</div>} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:id" element={<BlogDetails />} /> 
+        <Route path="/product/:id" element={<ProductDetails />} />
       </Routes>
       <Footer />
       <BottomNavbar />

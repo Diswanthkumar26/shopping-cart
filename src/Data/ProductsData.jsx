@@ -1,9 +1,8 @@
-import { createSlice } from '@reduxjs/toolkit';
-import productImg from '../assets/gradient-product-card-template_23-2149656335.avif'
-import productImg2 from '../assets/Amazon_logo.svg.png'
 
-const initialState = {
-  products: [
+import productImg from '../assets/gradient-product-card-template_23-2149656335.avif';
+import productImg2 from '../assets/Amazon_logo.svg.png';
+
+const products = [
     {
       id: 1,
       titleImg:productImg2,
@@ -94,13 +93,8 @@ const initialState = {
       tagType: "limited",
       image: productImg,
     },
-  ],
-};
+  
+];
 
-const productSlice = createSlice({
-  name: 'product',
-  initialState,
-  reducers: {}
-});
+export default products;
 
-export default productSlice.reducer;
