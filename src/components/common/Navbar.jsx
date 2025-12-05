@@ -31,7 +31,7 @@ export default function Navbar() {
   return (
     <nav className="bg-blue-800 text-white px-6 py-4 flex items-center justify-between relative">
       <div className="flex items-center space-x-2 z-20">
-        <div className="text-white font-bold px-2 py-1 border border-white">RQ</div>
+        <div className="text-white font-bold px-2 py-1 border border-white">DK</div>
         <span className="text-xl font-semibold">Offerhubdeals</span>
       </div>
       <div className="hidden md:flex flex-1 justify-center space-x-6 font-medium">
